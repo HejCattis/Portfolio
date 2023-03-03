@@ -20,15 +20,15 @@
                 <p class="smaller-p">Jag är en <strong>Fullstack Webbutvecklarstudent</strong></p>
             </div>
         </section>
-        <section>
-            <a href="#" class="hero_link flx">
+        <section class="margins">
+            <a href="#about" class="hero_link flx">
                 <h3 class="hero_h3">function clickHere()</h3>
                 <svg xmlns="http://www.w3.org/2000/svg" class="hero_arrow" viewBox="0 0 24 24"><g transform="rotate(-90 12 12)"><path fill="currentColor" d="M9.125 21.1L.7 12.7q-.15-.15-.213-.325T.425 12q0-.2.063-.375T.7 11.3l8.425-8.425q.35-.35.875-.35t.9.375q.375.375.375.875t-.375.875L3.55 12l7.35 7.35q.35.35.35.863t-.375.887q-.375.375-.875.375t-.875-.375Z"/></g></svg>
             </a>
         </section>
     </section>
-    <section class="flx">
-        <div class="about_img">
+    <section class="flx margins">
+        <section class="about_img">
             <svg class="about_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <mask id="mask0" mask-type="alpha">
                     <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
@@ -44,7 +44,40 @@
                     <image class="about_blob_img" x="12" y="5" href="/_images/Cattis-klippt.png"/>
                 </g>
             </svg>
-        </div>
+        </section>
+        <section class="flx margins">
+            <h2 id="about" class="about-h2">Det här är jag.</h2>
+            <h3>Jag är nästa stora stjärna inom PHP och Laravel.</h3>
+            <p>Medan jag jagar detta mål är jag på resan mot att bli Fullstack Webbutvecklare, med stor strävan att bredda mina kunskaper inom Backend.</p>
+            <a href="#" class="about-btn">Kontakta mig</a>
+            <div class="flx about-lia">
+                <svg xmlns="http://www.w3.org/2000/svg" class="about-quote" viewBox="0 0 24 24"><path fill="currentColor" d="m15 17l2-4h-4V6h7v7l-2 4h-3Zm-9 0l2-4H4V6h7v7l-2 4H6Z"/></svg>
+                <p>Jag söker nu <strong>LIA-plats</strong> hos ett företag i framkant som <strong>strävar efter att bli bäst</strong> i sin bransch genom nya, innovativa idéer tillsammans med ett engagerat och drivet team.</p>
+                <a href="#" class="about-a">Intresserad?</a>
+            </div>
+        </section>
     </section>
+    <section class="flx margins">
+        <h2>Erfarenhet</h2>
+        <section class="exp_flx">
+            <div>
+                <p class="exp_icon">8 år</p>
+                <p class="exp_text">Marknadsföring</p>
+            </div>
+            <div>
+                <p class="exp_icon">5 år</p>
+                <p class="exp_text">Grafisk design</p>
+            </div>
+            <div>
+                <p class="exp_icon">3 år</p>
+                <p class="exp_text">Projekthantering</p>
+            </div>
+        </section>
+        <div class="section">
+            <p>Mitt intresse för programmering startade på min tidigare arbetsplats där jag jobbade som marknadsprojektledare. I klassisk litet marknadsteam-anda hade jag ett flertal roller, bland annat grafisk designer. I samband med ett nytt utvecklingsprojekt blev jag tilldelad rollen som inhouse UI-designer. Jag hade en aktiv roll att hjälpa frontend utvecklarna att ta fram en användbar UI-design för en AI-molntjänstservice inom hissbranschen. På den vägen föddes mitt intresse för programmering som ett år senare ledde mig till att bli en Fullstack-webbutvecklingsstudent hos Chas Academy.</p>
+        </div>
+        <button id="show-more-btn" type="button">Läs mer</button>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
