@@ -113,15 +113,15 @@ strong {
 }
 
 
-.home__img{
+.about_img{
     order: 1;
     justify-self: center;
 }
-.home__blob {
+.about_blob {
     width: 200px;
     fill: var(--first-color);
 }
 
-.home__blob-img {
+.about_blob_img {
     width: 170px;
 }
