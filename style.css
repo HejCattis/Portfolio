@@ -9,8 +9,9 @@
     --second-color: #7B4590;
 
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
-    --big-font-size: 40px;
     --h1-font-size: 36px;
+    --big-font-size: 32px;
+    --h2-font-size-first: 26px;
     --h2-font-size: 24px;
     --h3-font-size: 18px;
     --normal-font-size: 16px;
@@ -39,6 +40,10 @@ h2 {
     font-weight: 600;
     margin-bottom: 15px;
     text-align: center;
+}
+
+h2::first-letter {
+    font-size: var(--h2-font-size-first);
 }
 
 h3 {
@@ -142,11 +147,11 @@ strong {
     color: #fff;
     text-decoration: none;
     background-color: var(--first-color);
-    padding: 15px 30px;
+    padding: 20px 40px;
     border-radius: 10px;
-    font-size: var(--small-font-size);
+    font-size: var(--normal-font-size);
     font-weight: 600;
-    margin: 20px 0 40px;
+    margin: 25px 0 80px;
 }
 
 .about-lia {
@@ -166,7 +171,7 @@ strong {
     color: var(--first-color);
     font-size: var(--h3-font-size);
     font-weight: 500;
-    margin-bottom: 20px;
+    margin: 20px 0 40px;
 }
 
 /*==================== Experience section ====================*/
@@ -175,7 +180,7 @@ strong {
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 .exp_icon {
@@ -193,8 +198,7 @@ strong {
     height: 210px;
     overflow: hidden;
     color: black;
-    -webkit-mask-image: -webkit-gradient(linear, left top, 
-      left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
   }
   
   #show-more-btn {
@@ -203,21 +207,20 @@ strong {
     color: #000;
     text-decoration: none;
     background-color: white;
-    padding: 15px 30px;
+    padding: 10px 45px;
     border-radius: 10px;
     font-size: var(--small-font-size);
     font-weight: 600;
-    margin: 20px 0 40px;
+    margin: 20px 0 50px;
     transition: margin-top 0.5s;
   }
   
-  #show-more-btn:hover {
-    color: var(--first-color);
-  }
   
   .section.show-more {
     height: auto;
     background: #fff;
     -webkit-mask-image: none;
   }
+  
+  /*==================== Skills section ====================*/
   
