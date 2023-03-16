@@ -226,6 +226,15 @@ header {
 }
 
 .about-btn {
+    color: #000;
+    text-decoration: none;
+    border: solid 3px var(--first-color);
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-size: var(--normal-font-size);
+    font-weight: 600;
+}
+.about-btn-two {
     color: #fff;
     text-decoration: none;
     background-color: var(--first-color);
@@ -233,7 +242,7 @@ header {
     border-radius: 10px;
     font-size: var(--normal-font-size);
     font-weight: 600;
-    margin: 25px 0 80px;
+    margin: 20px 0 80px;
 }
 
 .about-lia {
@@ -381,4 +390,47 @@ header {
     margin-bottom: 10px;
 }
 
-/*==================== Reference section ====================*/
+/*==================== Footer  ====================*/
+footer {
+    background-image: url(/_images/Footer-BG.png);
+    height: 30vh;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-top: solid 3px var(--second-color);
+}
+
+.footer_logo {
+    margin-left: 30px;
+    font-size: var(--h2-font-size);
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-left: 50px;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+footer div {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.footer_icon {
+    height: 40px;
+    margin-right: 20px;
+}
