@@ -178,7 +178,7 @@ nav ul.active {
 }
 
 .hero {
-  background-image: url(/_images/BG-mobile.png);
+  background-image: url(https://github.com/HejCattis/hejdev.github.io/blob/main/_images/BG-mobile.png?raw=true);
   height: 60vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -425,7 +425,7 @@ nav ul.active {
 
 /*==================== Footer  ====================*/
 footer {
-  background-image: url(/_images/Footer-BG.png);
+  background-image: url(https://github.com/HejCattis/hejdev.github.io/blob/main/_images/Footer-BG.png);
   height: 30vh;
   background-position: right;
   background-repeat: no-repeat;
@@ -485,7 +485,7 @@ footer div {
   }
 
   .hero {
-    background-image: url(/_images/BG.png);
+    background-image: url(https://github.com/HejCattis/hejdev.github.io/blob/main/_images/BG.png?raw=true);
     height: 80vh;
     background-position: 200%;
     background-size: 80%;
