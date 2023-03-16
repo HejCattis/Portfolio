@@ -25,3 +25,13 @@ navLinks.forEach((navLinks) => {
     hamMenuIcon.classList.toggle("fa-times");
   });
 });
+
+window.onscroll = function() {
+  var navbar = document.querySelector('header');
+  var scrollDistance = 400; // set the scroll distance to 100 pixels
+  if (window.pageYOffset > scrollDistance) {
+    navbar.classList.remove('transparent');
+  } else {
+    navbar.classList.add('transparent');
+  }
+};
