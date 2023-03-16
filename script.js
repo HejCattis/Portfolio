@@ -1,5 +1,5 @@
 const showMoreBtn = document.getElementById('show-more-btn');
-const section = document.querySelector('.section');
+const section = document.querySelector('.exp_section');
 
 showMoreBtn.addEventListener('click', () => {
   if (section.classList.contains('show-more')) {
