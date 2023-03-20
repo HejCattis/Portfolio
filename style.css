@@ -627,6 +627,10 @@ footer div {
     gap: 80px;
   }
 
+  footer {
+    height: 40vh;
+  }
+
   .footer_logo {
     margin-left: 100px;
     margin-bottom: 20px;
